@@ -24,6 +24,10 @@ Smart home systems can automate everyday tasks, but often come with high price t
 - CNC Router (for cabinet fabrication)
 - Arduino C / Embedded C (for firmware)
 
+## Code Overview
+
+The firmware allows users to control the rotation of each shelf by sending serial commands (integers 0–4 for the top shelf, 6–10 for the bottom). A reset command (11) returns the shelves to their original positions.
+
 ## Budget Breakdown
 
 | Component         | Estimated Cost |
